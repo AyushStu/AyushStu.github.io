@@ -20,9 +20,7 @@ function linkAction() {
 }
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
-
 /*===== SCROLL SECTIONS ACTIVE LINK =====*/
-
 
 const sections = document.querySelectorAll("section[id]");
 
@@ -82,3 +80,5 @@ sr.reveal(".contact__subtitle", {});
 sr.reveal(".contact__text", { interval: 200 });
 sr.reveal(".contact__input", { delay: 400 });
 sr.reveal(".contact__button", { delay: 600 });
+
+sr.reveal(".col1", { interval: 200 });
