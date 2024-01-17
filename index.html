@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -26,6 +25,7 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
+                        <li class="nav__item"><a href="./assets/Resume.pdf" class="nav__link active">Resume</a></li>
                         <li class="nav__item"><a href="#home" class="nav__link ">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#Collection" class="nav__link">Collection</a></li>
@@ -41,14 +41,13 @@
 
         <main class="l-main">
             <!--===== HOME =====-->
-            
             <section class="home" id="home">
-                <div class="home__container">
-                    <video autoplay muted loop>
-                        <source src="./assets/img/video (1080p).mp4">
-        
-                    </video>
-                    
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>HE</span><br>LLO..</h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
                 </div>
                
                     
@@ -67,9 +66,9 @@
                     <div >
                         <h2 class="about__subtitle">I'am Ayush Goyal</h2>
                         
-                        <span class="about__profession">Professional Singer</span>
+                        <span class="about__profession">Full Stack Developer</span>
                         <p class="about__text"> 
-                            Meet me, Ayush Goyal, a captivating singer whose voice transcends genres, weaving emotion into every note. With a unique blend of passion and skill, I transform melodies into captivating stories. From soulful renditions to powerful performances, I am not just a singer but a storyteller, leaving an indelible mark on the hearts of listeners. With influences spanning diverse musical landscapes, I continue to evolve, creating a sound that is both distinctive and timeless. Stay tuned for the enchanting sounds that I am poised to share with the world.</p>
+                            A passionate Full Stack Developer with expertise in React, MongoDB, and building RESTful APIs with Express.js, including proficiency in EJS for dynamic HTML templating. Skilled in various web technologies such as C++, Java, Python, and JavaScript, complemented by a strong foundation in HTML, CSS, and Node.js. Specialized in Jenkins, Cloud Computing, and adept at Performance Testing, ETL Testing, and providing technical support. Committed to pushing the boundaries of digital innovation.</p>
                         <div class="about__social">
                             <a href="https://www.linkedin.com/in/ayush-goyal-9967461a3" target="_blank" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
                             <a href="https://github.com/AyushStu" target="_blank" class="about__social-icon1"><i class='bx bxl-instagram' ></i></a>
@@ -100,7 +99,7 @@
 
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
-                <h2 style="color: rgb(131, 131, 98);" class="section-title">Contact</h2>
+                <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
                     <div class="contact__info">
@@ -128,11 +127,27 @@
             </section>
         </main>
 
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">Ayush Goyal</h2>
+                    <p class="footer__text">I'm Ayush Goyal and this is my personal website</p>
+                </div>
 
-
-
-        
-       
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                
+            </div>
+        </footer>
 
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
